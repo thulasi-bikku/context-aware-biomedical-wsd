@@ -1,0 +1,11 @@
+{
+  "ngram_range": [3, 5],
+  "embedding_dim": 200,
+  "max_depth": 2,
+  "optimizer": "adam",
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "dropout": 0.3,
+  "folds": 10,
+  "note": "Values above are those stated in the manuscript. Smoothing constants, filtering thresholds, temperature and loss weights are set in cawsd/pipeline.py and cawsd/mesh_filter.py and must be tuned on the validation subset."
+}
